@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>IMDb</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="search">
+            <input type="text" id="search" placeholder="Search a film or a serie">
+        </div>
+    </div>
+
+    <br /><br />
+    <div class="container hidden" id="container"></div>
+    <div class="container_film">
+        <div class="header_movie">
+            <div class="header_top">
+                <h2 class="title element"></h2>
+                <p class="year element"></p>
+            </div>
+            <div class="header_bot">
+                <p class="time element"></p>
+                <p class="genre element"></p>
+            </div>
+        </div>
+        <div class="contain">
+            <div class="affiche">
+                <!--Image insérer ici en JS-->
+            </div>
+            <div class="iframe">
+                <!-- Iframe insérer en JS-->
+            </div>
+        </div>
+        <div class="release_data">In theather : <p class="item item_release element"></p>
+        </div>
+        <div class="text">
+            <p class="plot element">
+            </p>
+            <div class="director">Director: <p class="item item_director element"></p>
+            </div>
+            <div class="writers">Writers: <p class="item item_writers element"></p>
+            </div>
+            <div class="actors">Stars: <p class="item item_actors element"></p>
+            </div>
+        </div>
+    </div>
+    <!-- ... -->
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
